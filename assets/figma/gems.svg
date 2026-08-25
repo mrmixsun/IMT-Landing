@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" width="1200" height="480">
+<rect width="1200" height="480" fill="#ffffff"/>
+<rect x="80" y="56" width="141" height="26" fill="#EFF6FF" rx="12"/>
+<text x="92" y="72" font-family="Inter, sans-serif" font-size="12px" font-weight="600" fill="#2563EB">Кто реализует</text>
+<text x="80" y="118" font-family="Inter, sans-serif" font-size="32px" font-weight="700" fill="#111827">GEMS — проводник цифровой трансформации</text>
+<text x="80" y="158" font-family="Inter, sans-serif" font-size="32px" font-weight="700" fill="#111827">градостроительства</text>
+<text x="80" y="204" font-family="Inter, sans-serif" font-size="16px" font-weight="400" fill="#4B5563">GEMS — разработчик GIS-решений для градостроительства и лидер</text>
+<text x="80" y="230" font-family="Inter, sans-serif" font-size="16px" font-weight="400" fill="#4B5563">цифровизации ГИСОГД в России.</text>
+<rect x="80" y="268" width="250" height="96" fill="#F8FAFC" rx="12"/>
+<text x="92" y="306" font-family="Inter, sans-serif" font-size="36px" font-weight="800" fill="#2563EB">150+</text>
+<text x="92" y="338" font-family="Inter, sans-serif" font-size="14px" font-weight="400" fill="#6B7280">сотрудников</text>
+<rect x="350" y="268" width="250" height="96" fill="#F8FAFC" rx="12"/>
+<text x="362" y="306" font-family="Inter, sans-serif" font-size="36px" font-weight="800" fill="#2563EB">54–55</text>
+<text x="362" y="338" font-family="Inter, sans-serif" font-size="14px" font-weight="400" fill="#6B7280">регионов</text>
+<rect x="620" y="268" width="250" height="96" fill="#F8FAFC" rx="12"/>
+<text x="632" y="306" font-family="Inter, sans-serif" font-size="36px" font-weight="800" fill="#2563EB">600+</text>
+<text x="632" y="338" font-family="Inter, sans-serif" font-size="14px" font-weight="400" fill="#6B7280">проектов</text>
+<rect x="890" y="268" width="250" height="96" fill="#F8FAFC" rx="12"/>
+<text x="902" y="306" font-family="Inter, sans-serif" font-size="36px" font-weight="800" fill="#2563EB">1 млн+</text>
+<text x="902" y="338" font-family="Inter, sans-serif" font-size="14px" font-weight="400" fill="#6B7280">услуг в год</text>
+<rect x="80" y="396" width="1040" height="60" fill="#F8FAFC" rx="8"/>
+<text x="96" y="424" font-family="Inter, sans-serif" font-size="14px" font-weight="400" fill="#374151">GEMS — не просто вендор. GEMS — проводник: от «цифровой бумаги»</text>
+<text x="96" y="446" font-family="Inter, sans-serif" font-size="14px" font-weight="400" fill="#374151">к информационной модели территории.</text>
+</svg>

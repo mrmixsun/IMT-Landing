@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+<rect width="1200" height="800" fill="#0F172A"/>
+<rect x="80" y="56" width="96" height="26" fill="rgba(255,255,255,0.08)" rx="12"/>
+<text x="92" y="72" font-family="Inter, sans-serif" font-size="12px" font-weight="600" fill="#94A3B8">Проблема</text>
+<text x="80" y="118" font-family="Inter, sans-serif" font-size="32px" font-weight="700" fill="#F1F5F9">Сегодня градостроительство работает с</text>
+<text x="80" y="158" font-family="Inter, sans-serif" font-size="32px" font-weight="700" fill="#F1F5F9">«цифровой бумагой»</text>
+<rect x="80" y="188" width="1040" height="60" fill="rgba(37,99,235,0.1)" rx="8"/>
+<text x="96" y="214" font-family="Inter, sans-serif" font-size="15px" font-weight="400" fill="#94A3B8">«Мы работаем не с данными, а с цифровой бумагой.</text>
+<text x="96" y="236" font-family="Inter, sans-serif" font-size="15px" font-weight="400" fill="#94A3B8">Документы в PDF выполняют функцию аналога цифрового преобразования.»</text>
+<rect x="80" y="278" width="480" height="320" fill="rgba(255,255,255,0.04)" rx="12"/>
+<text x="100" y="312" font-family="Inter, sans-serif" font-size="18px" font-weight="700" fill="#F1F5F9">Что не так</text>
+<circle cx="103" cy="342" r="4" fill="#2563EB"/>
+<text x="116" y="338" font-family="Inter, sans-serif" font-size="14px" font-weight="400" fill="#CBD5E1">Межведомственное взаимодействие — дни и недели вместо минут</text>
+<circle cx="103" cy="378" r="4" fill="#2563EB"/>
+<text x="116" y="374" font-family="Inter, sans-serif" font-size="14px" font-weight="400" fill="#CBD5E1">Согласование инженерных сетей — 160 дней бумажных процедур</text>
+<circle cx="103" cy="414" r="4" fill="#2563EB"/>
+<text x="116" y="410" font-family="Inter, sans-serif" font-size="14px" font-weight="400" fill="#CBD5E1">Нет единой актуальной картографической основы</text>
+<circle cx="103" cy="450" r="4" fill="#2563EB"/>
+<text x="116" y="446" font-family="Inter, sans-serif" font-size="14px" font-weight="400" fill="#CBD5E1">Нет сводного плана подземных коммуникаций</text>
+<circle cx="103" cy="486" r="4" fill="#2563EB"/>
+<text x="116" y="482" font-family="Inter, sans-serif" font-size="14px" font-weight="400" fill="#CBD5E1">Информационные модели ОКС не размещаются</text>
+<circle cx="103" cy="522" r="4" fill="#2563EB"/>
+<text x="116" y="518" font-family="Inter, sans-serif" font-size="14px" font-weight="400" fill="#CBD5E1">Граждане и бизнес не имеют доступа к градостроительным данным</text>
+<rect x="640" y="278" width="480" height="420" fill="rgba(37,99,235,0.1)" rx="12"/>
+<text x="660" y="312" font-family="Inter, sans-serif" font-size="18px" font-weight="700" fill="#F1F5F9">Экономика неэффективности</text>
+<text x="660" y="334" font-family="Inter, sans-serif" font-size="14px" font-weight="400" fill="#94A3B8">Кейс Татарстана (1 трлн руб/год — объём стройки)</text>
+<text x="660" y="370" font-family="Inter, sans-serif" font-size="28pxpx" font-weight="700" fill="#F1F5F9">1 200 дней</text>
+<text x="660" y="398" font-family="Inter, sans-serif" font-size="13px" font-weight="400" fill="#94A3B8">средняя длительность инвестцикла (~3.5 года)</text>
+<text x="660" y="442" font-family="Inter, sans-serif" font-size="28pxpx" font-weight="700" fill="#F1F5F9">7 месяцев</text>
+<text x="660" y="470" font-family="Inter, sans-serif" font-size="13px" font-weight="400" fill="#94A3B8">административные процедуры</text>
+<text x="660" y="514" font-family="Inter, sans-serif" font-size="32pxpx" font-weight="700" fill="#F59E0B">30–50 млрд руб/год</text>
+<text x="660" y="542" font-family="Inter, sans-serif" font-size="13px" font-weight="400" fill="#94A3B8">эффект от перехода на цифровое взаимодействие</text>
+</svg>

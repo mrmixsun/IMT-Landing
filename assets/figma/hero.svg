@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640">
+<rect width="1200" height="640" fill="#0F172A"/>
+<circle cx="960" cy="160" r="280" fill="rgba(37,99,235,0.08)"/>
+<text x="80" y="180" font-family="Inter, sans-serif" font-size="56px" font-weight="800" fill="#ffffff">Информационная модель территории</text>
+<text x="80" y="248" font-family="Inter, sans-serif" font-size="24px" font-weight="500" fill="#94A3B8">Новый стандарт управления развитием городов и регионов</text>
+<text x="80" y="300" font-family="Inter, sans-serif" font-size="18px" font-weight="400" fill="#CBD5E1">ГИСОГД сегодня — это архив скан-копий. ИМТ — единая цифровая платформа, где геоданные,</text>
+<text x="80" y="326" font-family="Inter, sans-serif" font-size="18px" font-weight="400" fill="#CBD5E1">интеграции и аналитика работают как один механизм. Для государства, бизнеса и граждан.</text>
+<rect x="80" y="350" width="200" height="48" fill="#2563EB" rx="8"/>
+<text x="92" y="380" font-family="Inter, sans-serif" font-size="15px" font-weight="600" fill="#ffffff">Понять проблему</text>
+<rect x="300" y="350" width="180" height="48" fill="transparent" rx="8"/>
+<text x="310" y="380" font-family="Inter, sans-serif" font-size="15px" font-weight="600" fill="#CBD5E1">Что такое ИМТ</text>
+<rect x="80" y="430" width="480" height="60" fill="rgba(255,255,255,0.06)" rx="12"/>
+<text x="104" y="464" font-family="Inter, sans-serif" font-size="24px" font-weight="700" fill="#F59E0B">30–50 млрд руб/год</text>
+<text x="360" y="464" font-family="Inter, sans-serif" font-size="15px" font-weight="400" fill="#94A3B8">— цена отсутствия ИМТ для региона</text>
+</svg>

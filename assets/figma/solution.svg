@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1160" width="1200" height="1160">
+<rect width="1200" height="1160" fill="#ffffff"/>
+<rect x="80" y="56" width="87" height="26" fill="#EFF6FF" rx="12"/>
+<text x="92" y="72" font-family="Inter, sans-serif" font-size="12px" font-weight="600" fill="#2563EB">Решение</text>
+<text x="80" y="118" font-family="Inter, sans-serif" font-size="32px" font-weight="700" fill="#111827">Информационная модель территории —</text>
+<text x="80" y="158" font-family="Inter, sans-serif" font-size="32px" font-weight="700" fill="#111827">цифровая отраслевая платформа</text>
+<text x="80" y="204" font-family="Inter, sans-serif" font-size="16px" font-weight="400" fill="#4B5563">Информационная модель территории (ИМТ) — систематизированная совокупность пространственных, </text>
+<text x="80" y="230" font-family="Inter, sans-serif" font-size="16px" font-weight="400" fill="#4B5563">семантических и атрибутивных данных о территории, объединённых в единой цифровой среде.</text>
+<rect x="80" y="296" width="370" height="260" fill="#ffffff" rx="12"/>
+<rect x="96" y="312" width="48" height="48" fill="#2563EB" rx="8"/>
+<text x="96" y="384" font-family="Inter, sans-serif" font-size="18px" font-weight="700" fill="#111827">Геопространственные данные</text>
+<text x="96" y="418" font-family="Inter, sans-serif" font-size="14px" font-weight="400" fill="#4B5563">Генеральный план</text>
+<text x="96" y="446" font-family="Inter, sans-serif" font-size="14px" font-weight="400" fill="#4B5563">ПЗЗ и градостроительные регламенты</text>
+<text x="96" y="474" font-family="Inter, sans-serif" font-size="14px" font-weight="400" fill="#4B5563">Проекты планировки (ПП/ПМ)</text>
+<text x="96" y="502" font-family="Inter, sans-serif" font-size="14px" font-weight="400" fill="#4B5563">КРТ, инженерные сети</text>
+<text x="96" y="530" font-family="Inter, sans-serif" font-size="14px" font-weight="400" fill="#4B5563">Ортофото и ДЗЗ</text>
+<rect x="490" y="296" width="370" height="260" fill="#ffffff" rx="12"/>
+<rect x="506" y="312" width="48" height="48" fill="#2563EB" rx="8"/>
+<text x="506" y="384" font-family="Inter, sans-serif" font-size="18px" font-weight="700" fill="#111827">Интеграция данных</text>
+<text x="506" y="418" font-family="Inter, sans-serif" font-size="14px" font-weight="400" fill="#4B5563">СМЭВ 4 — витрина данных ГИСОГД</text>
+<text x="506" y="446" font-family="Inter, sans-serif" font-size="14px" font-weight="400" fill="#4B5563">ЕГРН / Росреестр</text>
+<text x="506" y="474" font-family="Inter, sans-serif" font-size="14px" font-weight="400" fill="#4B5563">НСПД — федеральная платформа</text>
+<text x="506" y="502" font-family="Inter, sans-serif" font-size="14px" font-weight="400" fill="#4B5563">Стройкомплекс.РФ</text>
+<text x="506" y="530" font-family="Inter, sans-serif" font-size="14px" font-weight="400" fill="#4B5563">Системы РСО</text>
+<rect x="900" y="296" width="370" height="260" fill="#ffffff" rx="12"/>
+<rect x="916" y="312" width="48" height="48" fill="#2563EB" rx="8"/>
+<text x="916" y="384" font-family="Inter, sans-serif" font-size="18px" font-weight="700" fill="#111827">Анализ и моделирование</text>
+<text x="916" y="418" font-family="Inter, sans-serif" font-size="14px" font-weight="400" fill="#4B5563">Система поддержки принятия решений</text>
+<text x="916" y="446" font-family="Inter, sans-serif" font-size="14px" font-weight="400" fill="#4B5563">Проактивный мониторинг (data-driven)</text>
+<text x="916" y="474" font-family="Inter, sans-serif" font-size="14px" font-weight="400" fill="#4B5563">Автоматическая проверка («робот-чиновник»)</text>
+<text x="916" y="502" font-family="Inter, sans-serif" font-size="14px" font-weight="400" fill="#4B5563">Оценка нагрузки и эффекта</text>
+<text x="916" y="530" font-family="Inter, sans-serif" font-size="14px" font-weight="400" fill="#4B5563">Прогнозное моделирование</text>
+<text x="80" y="636" font-family="Inter, sans-serif" font-size="22px" font-weight="700" fill="#111827">Принципы ИМТ</text>
+<rect x="80" y="676" width="520" height="64" fill="#F8FAFC" rx="10"/>
+<rect x="94" y="694" width="28" height="28" fill="#2563EB" rx="8"/>
+<text x="101" y="713" font-family="Inter, sans-serif" font-size="12px" font-weight="700" fill="#ffffff">1</text>
+<text x="136" y="704" font-family="Inter, sans-serif" font-size="14px" font-weight="600" fill="#111827">Данные, а не документы</text>
+<text x="136" y="724" font-family="Inter, sans-serif" font-size="12px" font-weight="400" fill="#6B7280">Всё в машиночитаемом формате</text>
+<rect x="640" y="676" width="520" height="64" fill="#F8FAFC" rx="10"/>
+<rect x="654" y="694" width="28" height="28" fill="#2563EB" rx="8"/>
+<text x="661" y="713" font-family="Inter, sans-serif" font-size="12px" font-weight="700" fill="#ffffff">2</text>
+<text x="696" y="704" font-family="Inter, sans-serif" font-size="14px" font-weight="600" fill="#111827">Однократный ввод, многократное использование</text>
+<rect x="80" y="756" width="520" height="64" fill="#F8FAFC" rx="10"/>
+<rect x="94" y="774" width="28" height="28" fill="#2563EB" rx="8"/>
+<text x="101" y="793" font-family="Inter, sans-serif" font-size="12px" font-weight="700" fill="#ffffff">3</text>
+<text x="136" y="784" font-family="Inter, sans-serif" font-size="14px" font-weight="600" fill="#111827">Актуальность по умолчанию</text>
+<text x="136" y="804" font-family="Inter, sans-serif" font-size="12px" font-weight="400" fill="#6B7280">Не «однажды загрузили»</text>
+<rect x="640" y="756" width="520" height="64" fill="#F8FAFC" rx="10"/>
+<rect x="654" y="774" width="28" height="28" fill="#2563EB" rx="8"/>
+<text x="661" y="793" font-family="Inter, sans-serif" font-size="12px" font-weight="700" fill="#ffffff">4</text>
+<text x="696" y="784" font-family="Inter, sans-serif" font-size="14px" font-weight="600" fill="#111827">Связанность</text>
+<text x="696" y="804" font-family="Inter, sans-serif" font-size="12px" font-weight="400" fill="#6B7280">Через пространственные отношения</text>
+<rect x="80" y="836" width="520" height="64" fill="#F8FAFC" rx="10"/>
+<rect x="94" y="854" width="28" height="28" fill="#2563EB" rx="8"/>
+<text x="101" y="873" font-family="Inter, sans-serif" font-size="12px" font-weight="700" fill="#ffffff">5</text>
+<text x="136" y="864" font-family="Inter, sans-serif" font-size="14px" font-weight="600" fill="#111827">Открытость по умолчанию</text>
+<text x="136" y="884" font-family="Inter, sans-serif" font-size="12px" font-weight="400" fill="#6B7280">Публичный доступ</text>
+<rect x="640" y="836" width="520" height="64" fill="#F8FAFC" rx="10"/>
+<rect x="654" y="854" width="28" height="28" fill="#2563EB" rx="8"/>
+<text x="661" y="873" font-family="Inter, sans-serif" font-size="12px" font-weight="700" fill="#ffffff">6</text>
+<text x="696" y="864" font-family="Inter, sans-serif" font-size="14px" font-weight="600" fill="#111827">Стандартизация</text>
+<text x="696" y="884" font-family="Inter, sans-serif" font-size="12px" font-weight="400" fill="#6B7280">Единые форматы и протоколы</text>
+</svg>

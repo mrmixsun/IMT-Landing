@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520">
+<rect width="1200" height="520" fill="#F8FAFC"/>
+<rect x="80" y="56" width="96" height="26" fill="#EFF6FF" rx="12"/>
+<text x="92" y="72" font-family="Inter, sans-serif" font-size="12px" font-weight="600" fill="#2563EB">Для кого</text>
+<text x="80" y="118" font-family="Inter, sans-serif" font-size="32px" font-weight="700" fill="#111827">ИМТ — выгода для каждого участника</text>
+<text x="88" y="174" font-family="Inter, sans-serif" font-size="14px" font-weight="500" fill="#6B7280">Государство и регионы</text>
+<text x="302" y="174" font-family="Inter, sans-serif" font-size="14px" font-weight="500" fill="#6B7280">Девелоперы и бизнес</text>
+<text x="516" y="174" font-family="Inter, sans-serif" font-size="14px" font-weight="500" fill="#6B7280">Граждане</text>
+<line x1="80" y1="186" x2="1120" y2="186" stroke="#E5E7EB" stroke-width="1"/>
+<rect x="80" y="182" width="200" height="2" fill="#2563EB" rx="0"/>
+<rect x="80" y="210" width="1040" height="40" fill="#EFF6FF" rx="8"/>
+<text x="96" y="236" font-family="Inter, sans-serif" font-size="16px" font-weight="600" fill="#374151">Экономия времени, снижение рисков, выполнение КПЭ, инвестиционная привлекательность региона.</text>
+<rect x="80" y="270" width="530" height="76" fill="#ffffff" rx="10"/>
+<text x="96" y="294" font-family="Inter, sans-serif" font-size="14px" font-weight="700" fill="#111827">Губернаторы, зампреды</text>
+<text x="96" y="320" font-family="Inter, sans-serif" font-size="14px" font-weight="400" fill="#6B7280">Рост инвестиционной привлекательности, Data-Driven управление</text>
+<rect x="650" y="270" width="530" height="76" fill="#ffffff" rx="10"/>
+<text x="666" y="294" font-family="Inter, sans-serif" font-size="14px" font-weight="700" fill="#111827">Региональные чиновники</text>
+<text x="666" y="320" font-family="Inter, sans-serif" font-size="14px" font-weight="400" fill="#6B7280">Сокращение сроков услуг, прозрачность</text>
+<rect x="80" y="360" width="530" height="76" fill="#ffffff" rx="10"/>
+<text x="96" y="384" font-family="Inter, sans-serif" font-size="14px" font-weight="700" fill="#111827">Главные архитекторы</text>
+<text x="96" y="410" font-family="Inter, sans-serif" font-size="14px" font-weight="400" fill="#6B7280">Инструмент для работы с территорией</text>
+<rect x="650" y="360" width="530" height="76" fill="#ffffff" rx="10"/>
+<text x="666" y="384" font-family="Inter, sans-serif" font-size="14px" font-weight="700" fill="#111827">Минстрой</text>
+<text x="666" y="410" font-family="Inter, sans-serif" font-size="14px" font-weight="400" fill="#6B7280">Письма от регионов, резолюция #ГИСОГД</text>
+</svg>
