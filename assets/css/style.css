@@ -980,6 +980,110 @@ p {
     transform: translateY(0) scale(1);
 }
 
+/* --- Illustrations --- */
+.illustration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.illustration svg {
+    width: 100%;
+    height: auto;
+    max-width: 560px;
+}
+
+.illustration--hero {
+    position: relative;
+    z-index: 1;
+}
+
+.illustration--hero svg {
+    max-width: 500px;
+}
+
+.illustration--compact svg {
+    max-width: 420px;
+}
+
+@media (max-width: 1024px) {
+    .illustration svg {
+        max-width: 100%;
+    }
+}
+
+/* --- Media Placeholders --- */
+.media-placeholder {
+    position: relative;
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    background: linear-gradient(135deg, rgba(59,130,246,0.06), rgba(99,102,241,0.04));
+    border: 1px solid rgba(255,255,255,0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 24px;
+    min-height: 280px;
+}
+
+.media-placeholder__content {
+    text-align: center;
+}
+
+.media-placeholder__icon {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 16px;
+    opacity: 0.3;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #94A3B8;
+}
+
+.media-placeholder__label {
+    font-size: 0.85rem;
+    color: #475569;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.media-placeholder__hint {
+    font-size: 0.75rem;
+    color: #334155;
+    opacity: 0.6;
+}
+
+.media-placeholder--video .media-placeholder__icon {
+    background: rgba(59,130,246,0.08);
+    border-color: rgba(59,130,246,0.15);
+}
+
+.media-placeholder--screenshot .media-placeholder__icon {
+    background: rgba(99,102,241,0.08);
+    border-color: rgba(99,102,241,0.15);
+}
+
+/* Section with illustration+text layout */
+.grid--illustration {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .grid--illustration {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+}
+
 /* ================================================================
    RESPONSIVE
    ================================================================ */
