@@ -1,0 +1,9 @@
+# Local
+.DS_Store
+Thumbs.db
+*.local
+
+# Project files (source docs, not part of the site)
+references.md
+references-sites.md
+index.md
