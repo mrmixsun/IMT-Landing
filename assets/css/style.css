@@ -53,8 +53,8 @@ h1, h2, h3, h4 {
 }
 
 h2 {
-    font-size: 2rem;
-    letter-spacing: -0.02em;
+    font-size: 2.25rem;
+    letter-spacing: -0.03em;
 }
 
 h3 {
@@ -117,7 +117,7 @@ p {
     padding: 4px 12px;
     border-radius: 100px;
     background: #EFF6FF;
-    color: #2563EB;
+    color: #3B82F6;
     margin-bottom: 16px;
 }
 
@@ -179,14 +179,14 @@ p {
 }
 
 .nav__link--cta {
-    background: #2563EB;
+    background: #3B82F6;
     color: #fff;
     font-weight: 600;
     padding: 8px 18px;
 }
 
 .nav__link--cta:hover {
-    background: #1D4ED8;
+    background: #2563EB;
     color: #fff;
 }
 
@@ -239,11 +239,22 @@ p {
 .hero::before {
     content: '';
     position: absolute;
-    top: -50%;
-    right: -20%;
+    top: -60%;
+    right: -15%;
+    width: 800px;
+    height: 800px;
+    background: radial-gradient(circle, rgba(59,130,246,0.12) 0%, transparent 65%);
+    pointer-events: none;
+}
+
+.hero::after {
+    content: '';
+    position: absolute;
+    bottom: -30%;
+    left: -10%;
     width: 600px;
     height: 600px;
-    background: radial-gradient(circle, rgba(37,99,235,0.08) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(99,102,241,0.08) 0%, transparent 60%);
     pointer-events: none;
 }
 
@@ -262,10 +273,10 @@ p {
 }
 
 .hero__supertitle {
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-weight: 800;
-    letter-spacing: -0.03em;
-    line-height: 1.1;
+    letter-spacing: -0.04em;
+    line-height: 1.05;
 }
 
 .hero__subtitle {
@@ -305,6 +316,7 @@ p {
     font-weight: 700;
     color: #F59E0B;
     white-space: nowrap;
+    text-shadow: 0 0 20px rgba(245, 158, 11, 0.3);
 }
 
 .hero__stat-label {
@@ -328,13 +340,15 @@ p {
 }
 
 .btn--primary {
-    background: #2563EB;
+    background: #3B82F6;
     color: #fff;
+    box-shadow: 0 0 24px rgba(59,130,246,0.25);
 }
 
 .btn--primary:hover {
-    background: #1D4ED8;
-    transform: translateY(-1px);
+    background: #2563EB;
+    transform: translateY(-2px);
+    box-shadow: 0 0 32px rgba(59,130,246,0.35);
 }
 
 .btn--ghost {
@@ -379,6 +393,52 @@ p {
     border: 1px solid rgba(255,255,255,0.08);
     border-radius: 12px;
     padding: 28px;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    position: relative;
+}
+
+.section--dark .card--gradient-border {
+    border: none;
+    background-clip: padding-box;
+}
+
+.section--dark .card--gradient-border::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 12px;
+    padding: 1px;
+    background: linear-gradient(135deg, rgba(59,130,246,0.3), rgba(99,102,241,0.2), transparent);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+}
+
+.problem__quote {
+    max-width: 720px;
+    margin-bottom: 48px;
+    padding: 28px 32px;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 12px;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+.problem__quote blockquote {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #CBD5E1;
+    font-style: normal;
+    margin-bottom: 12px;
+}
+
+.problem__quote cite {
+    font-size: 0.85rem;
+    color: #64748B;
+    font-style: normal;
 }
 
 .section:not(.section--dark) .card {
@@ -396,13 +456,13 @@ p {
 }
 
 .card--highlight {
-    border-color: rgba(37,99,235,0.3);
-    background: rgba(37,99,235,0.06);
+    border-color: rgba(59,130,246,0.3);
+    background: rgba(59,130,246,0.06);
 }
 
 .section--dark .card--highlight {
-    background: rgba(37,99,235,0.1);
-    border-color: rgba(37,99,235,0.25);
+    background: rgba(59,130,246,0.1);
+    border-color: rgba(59,130,246,0.25);
 }
 
 .card__title {
@@ -426,7 +486,7 @@ p {
     width: 48px;
     height: 48px;
     margin-bottom: 16px;
-    color: #2563EB;
+    color: #3B82F6;
 }
 
 .section--dark .card__icon {
@@ -455,7 +515,7 @@ p {
     width: 6px;
     height: 6px;
     border-radius: 50%;
-    background: #2563EB;
+    background: #3B82F6;
     opacity: 0.5;
 }
 
@@ -487,6 +547,7 @@ p {
     font-weight: 700;
     color: #F1F5F9;
     line-height: 1.1;
+    text-shadow: 0 0 20px rgba(245, 158, 11, 0.15);
 }
 
 .stats-list__label {
@@ -551,7 +612,7 @@ p {
     width: 28px;
     height: 28px;
     border-radius: 8px;
-    background: #2563EB;
+    background: #3B82F6;
     color: #fff;
     font-size: 0.8rem;
     font-weight: 700;
@@ -666,7 +727,7 @@ p {
 .callout {
     padding: 24px 28px;
     background: #F8FAFC;
-    border-left: 3px solid #2563EB;
+    border-left: 3px solid #3B82F6;
     border-radius: 8px;
 }
 
@@ -712,8 +773,8 @@ p {
 }
 
 .tabs__btn.active {
-    color: #2563EB;
-    border-bottom-color: #2563EB;
+    color: #3B82F6;
+    border-bottom-color: #3B82F6;
 }
 
 .tabs__content {
@@ -761,7 +822,7 @@ p {
 
 .quote {
     padding: 24px 28px;
-    border-left: 3px solid #2563EB;
+    border-left: 3px solid #3B82F6;
     border-radius: 8px;
     background: rgba(255,255,255,0.04);
 }
@@ -809,7 +870,7 @@ p {
     display: block;
     font-size: 2.25rem;
     font-weight: 800;
-    color: #2563EB;
+    color: #3B82F6;
     line-height: 1.1;
     margin-bottom: 6px;
 }
@@ -910,13 +971,13 @@ p {
 /* --- Scroll Reveal (JS will add class) --- */
 .reveal {
     opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    transform: translateY(30px) scale(0.97);
+    transition: opacity 0.7s ease-out, transform 0.7s ease-out;
 }
 
 .reveal.visible {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(0) scale(1);
 }
 
 /* ================================================================
@@ -939,11 +1000,11 @@ p {
     }
 
     h2 {
-        font-size: 1.5rem;
+        font-size: 1.625rem;
     }
 
     .hero__supertitle {
-        font-size: 2rem;
+        font-size: 2.25rem;
     }
 
     .hero__subtitle {
@@ -990,7 +1051,7 @@ p {
     }
 
     .tabs__btn.active {
-        border-left-color: #2563EB;
+        border-left-color: #3B82F6;
         border-bottom: none;
         background: #EFF6FF;
     }
@@ -1066,7 +1127,7 @@ p {
     }
 
     .hero__supertitle {
-        font-size: 1.65rem;
+        font-size: 1.85rem;
     }
 
     .gems__stats {
