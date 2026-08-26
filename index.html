@@ -32,8 +32,8 @@
 
     <!-- ========== 1. HERO ========== -->
     <section class="hero" id="hero">
-        <div class="container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center;">
-            <div class="hero__content" style="padding: 80px 0;">
+        <div class="container">
+            <div class="hero__content">
                 <h1 class="hero__title">
                     <span class="hero__supertitle">Информационная модель территории</span>
                     <span class="hero__subtitle">Новый стандарт управления развитием городов и регионов</span>
@@ -51,9 +51,6 @@
                     <span class="hero__stat-label">— цена отсутствия ИМТ для региона</span>
                 </div>
             </div>
-            <div class="illustration illustration--hero">
-                <object data="assets/img/hero-illustration.svg" type="image/svg+xml" aria-label="Абстрактная карта цифровой территории"></object>
-            </div>
         </div>
     </section>
 
@@ -65,50 +62,43 @@
                 <h2>Сегодня градостроительство работает с «цифровой бумагой»</h2>
             </div>
 
-            <div class="grid--illustration">
-                <div>
-                    <div class="problem__quote">
-                        <blockquote>
-                            «Мы работаем не с данными, а с цифровой бумагой. Документы в PDF выполняют функцию аналога цифрового преобразования.»
-                            <cite>— Алексей Дударев, CEO GEMS, #ГИСОГД 2024</cite>
-                        </blockquote>
-                    </div>
+            <div class="problem__quote">
+                <blockquote>
+                    «Мы работаем не с данными, а с цифровой бумагой. Документы в PDF выполняют функцию аналога цифрового преобразования.»
+                    <cite>— Алексей Дударев, CEO GEMS, #ГИСОГД 2024</cite>
+                </blockquote>
+            </div>
 
-                    <div class="grid grid--2">
-                        <div class="card card--gradient-border">
-                            <h3 class="card__title">Что не так</h3>
-                            <ul class="list list--bullet">
-                                <li>Межведомственное взаимодействие — дни и недели вместо минут</li>
-                                <li>Согласование инженерных сетей — 160 дней бумажных процедур</li>
-                                <li>Нет единой актуальной картографической основы</li>
-                                <li>Нет сводного плана подземных коммуникаций</li>
-                                <li>Информационные модели ОКС не размещаются</li>
-                                <li>Граждане и бизнес не имеют доступа к градостроительным данным</li>
-                            </ul>
-                        </div>
-
-                        <div class="card card--highlight">
-                            <h3 class="card__title">Экономика неэффективности</h3>
-                            <p class="card__subtitle">Кейс Татарстана (1 трлн руб/год — объём стройки)</p>
-                            <dl class="stats-list">
-                                <div class="stats-list__item">
-                                    <dt class="stats-list__value">1 200 дней</dt>
-                                    <dd class="stats-list__label">средняя длительность инвестцикла (~3.5 года)</dd>
-                                </div>
-                                <div class="stats-list__item">
-                                    <dt class="stats-list__value">7 месяцев</dt>
-                                    <dd class="stats-list__label">административные процедуры</dd>
-                                </div>
-                                <div class="stats-list__item stats-list__item--accent">
-                                    <dt class="stats-list__value">30–50 млрд руб/год</dt>
-                                    <dd class="stats-list__label">эффект от перехода на цифровое взаимодействие</dd>
-                                </div>
-                            </dl>
-                        </div>
-                    </div>
+            <div class="grid grid--2">
+                <div class="card card--gradient-border">
+                    <h3 class="card__title">Что не так</h3>
+                    <ul class="list list--bullet">
+                        <li>Межведомственное взаимодействие — дни и недели вместо минут</li>
+                        <li>Согласование инженерных сетей — 160 дней бумажных процедур</li>
+                        <li>Нет единой актуальной картографической основы</li>
+                        <li>Нет сводного плана подземных коммуникаций</li>
+                        <li>Информационные модели ОКС не размещаются</li>
+                        <li>Граждане и бизнес не имеют доступа к градостроительным данным</li>
+                    </ul>
                 </div>
-                <div class="illustration illustration--compact">
-                    <object data="assets/img/problem-illustration.svg" type="image/svg+xml" aria-label="Сравнение: PDF-документы против связанных данных"></object>
+
+                <div class="card card--highlight">
+                    <h3 class="card__title">Экономика неэффективности</h3>
+                    <p class="card__subtitle">Кейс Татарстана (1 трлн руб/год — объём стройки)</p>
+                    <dl class="stats-list">
+                        <div class="stats-list__item">
+                            <dt class="stats-list__value">1 200 дней</dt>
+                            <dd class="stats-list__label">средняя длительность инвестцикла (~3.5 года)</dd>
+                        </div>
+                        <div class="stats-list__item">
+                            <dt class="stats-list__value">7 месяцев</dt>
+                            <dd class="stats-list__label">административные процедуры</dd>
+                        </div>
+                        <div class="stats-list__item stats-list__item--accent">
+                            <dt class="stats-list__value">30–50 млрд руб/год</dt>
+                            <dd class="stats-list__label">эффект от перехода на цифровое взаимодействие</dd>
+                        </div>
+                    </dl>
                 </div>
             </div>
         </div>
@@ -125,10 +115,6 @@
             <div class="solution__definition">
                 <p><strong>Информационная модель территории (ИМТ)</strong> — систематизированная совокупность пространственных, семантических и атрибутивных данных о территории, объединённых в единой цифровой среде.</p>
                 <p>ИМТ обеспечивает: анализ состояния территории, моделирование сценариев развития, поддержку принятия решений, мониторинг реализации решений, публичный доступ к информации.</p>
-            </div>
-
-            <div class="illustration" style="margin: 32px 0 16px;">
-                <object data="assets/img/solution-illustration.svg" type="image/svg+xml" aria-label="Архитектура платформы ИМТ: Геоданные — Интеграции — Аналитика"></object>
             </div>
 
             <h3 class="section__subtitle">Три компонента ИМТ</h3>
@@ -174,17 +160,6 @@
                         <li>Оценка нагрузки и эффекта</li>
                         <li>Прогнозное моделирование</li>
                     </ul>
-                </div>
-            </div>
-
-            <!-- Media placeholder: screenshot -->
-            <div class="media-placeholder media-placeholder--screenshot" style="margin: 32px 0 16px;">
-                <div class="media-placeholder__content">
-                    <div class="media-placeholder__icon">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
-                    </div>
-                    <div class="media-placeholder__label">Интерфейс Geometa — карта территории</div>
-                    <div class="media-placeholder__hint">Здесь будет скриншот карты с наложением слоёв: генплан, ПЗЗ, инженерные сети, КРТ</div>
                 </div>
             </div>
 
@@ -243,10 +218,6 @@
             <div class="section__header">
                 <span class="section__label">Дорожная карта</span>
                 <h2>7 направлений реализации ИМТ</h2>
-            </div>
-
-            <div class="illustration" style="margin-bottom: 32px;">
-                <object data="assets/img/directions-illustration.svg" type="image/svg+xml" aria-label="Таймлайн 7 направлений ИМТ"></object>
             </div>
             <div class="directions">
                 <div class="direction">
@@ -310,63 +281,56 @@
                 <h2>Целевые показатели: что изменится</h2>
             </div>
 
-            <div class="grid--illustration">
-                <div>
-                    <div class="roadmap__table-wrapper">
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th>Показатель</th>
-                                    <th>Сейчас</th>
-                                    <th>Цель</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Инвестиционно-строительный цикл</td>
-                                    <td class="table__bad">~1 200 дней</td>
-                                    <td class="table__good">~900 дней</td>
-                                </tr>
-                                <tr>
-                                    <td>Межведомственное взаимодействие</td>
-                                    <td class="table__bad">до 5 дней</td>
-                                    <td class="table__good">15 минут</td>
-                                </tr>
-                                <tr>
-                                    <td>Сроки услуг в электронном виде</td>
-                                    <td class="table__bad">—</td>
-                                    <td class="table__good">сокращение в 3–4 раза</td>
-                                </tr>
-                                <tr>
-                                    <td>Экономия для региона (Татарстан)</td>
-                                    <td class="table__bad">0</td>
-                                    <td class="table__good">30–50 млрд руб/год</td>
-                                </tr>
-                                <tr>
-                                    <td>Публичный доступ к градостроительным данным</td>
-                                    <td class="table__bad">нет</td>
-                                    <td class="table__good">да</td>
-                                </tr>
-                                <tr>
-                                    <td>Качество городской среды (Указ 309)</td>
-                                    <td class="table__bad">—</td>
-                                    <td class="table__good">+30% к 2030, +60% к 2036</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+            <div class="roadmap__table-wrapper">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Показатель</th>
+                            <th>Сейчас</th>
+                            <th>Цель</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Инвестиционно-строительный цикл</td>
+                            <td class="table__bad">~1 200 дней</td>
+                            <td class="table__good">~900 дней</td>
+                        </tr>
+                        <tr>
+                            <td>Межведомственное взаимодействие</td>
+                            <td class="table__bad">до 5 дней</td>
+                            <td class="table__good">15 минут</td>
+                        </tr>
+                        <tr>
+                            <td>Сроки услуг в электронном виде</td>
+                            <td class="table__bad">—</td>
+                            <td class="table__good">сокращение в 3–4 раза</td>
+                        </tr>
+                        <tr>
+                            <td>Экономия для региона (Татарстан)</td>
+                            <td class="table__bad">0</td>
+                            <td class="table__good">30–50 млрд руб/год</td>
+                        </tr>
+                        <tr>
+                            <td>Публичный доступ к градостроительным данным</td>
+                            <td class="table__bad">нет</td>
+                            <td class="table__good">да</td>
+                        </tr>
+                        <tr>
+                            <td>Качество городской среды (Указ 309)</td>
+                            <td class="table__bad">—</td>
+                            <td class="table__good">+30% к 2030, +60% к 2036</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
-                    <div class="callout">
-                        <p><strong>Связь с национальными целями.</strong> Концепция ИМТ прямо работает на достижение показателей Указа Президента №309:</p>
-                        <ul class="list list--bullet">
-                            <li><strong>Комфортная и безопасная среда для жизни</strong> — улучшение на 30% к 2030, на 60% к 2036</li>
-                            <li><strong>Цифровая трансформация</strong> — 99% услуг онлайн, цифровая зрелость отраслей</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="illustration illustration--compact">
-                    <object data="assets/img/effects-illustration.svg" type="image/svg+xml" aria-label="Сравнение показателей: Сейчас vs Цель"></object>
-                </div>
+            <div class="callout">
+                <p><strong>Связь с национальными целями.</strong> Концепция ИМТ прямо работает на достижение показателей Указа Президента №309:</p>
+                <ul class="list list--bullet">
+                    <li><strong>Комфортная и безопасная среда для жизни</strong> — улучшение на 30% к 2030, на 60% к 2036</li>
+                    <li><strong>Цифровая трансформация</strong> — 99% услуг онлайн, цифровая зрелость отраслей</li>
+                </ul>
             </div>
         </div>
     </section>
@@ -379,86 +343,79 @@
                 <h2>ИМТ — выгода для каждого участника</h2>
             </div>
 
-            <div class="grid--illustration">
-                <div>
-                    <div class="tabs" id="audienceTabs">
-                        <div class="tabs__nav">
-                            <button class="tabs__btn active" data-tab="b2g">Государство и регионы</button>
-                            <button class="tabs__btn" data-tab="b2b">Девелоперы и бизнес</button>
-                            <button class="tabs__btn" data-tab="b2c">Граждане</button>
-                        </div>
+            <div class="tabs" id="audienceTabs">
+                <div class="tabs__nav">
+                    <button class="tabs__btn active" data-tab="b2g">Государство и регионы</button>
+                    <button class="tabs__btn" data-tab="b2b">Девелоперы и бизнес</button>
+                    <button class="tabs__btn" data-tab="b2c">Граждане</button>
+                </div>
 
-                        <div class="tabs__content active" id="tab-b2g">
-                            <div class="audience-block">
-                                <p class="audience-block__message">Экономия времени, снижение рисков, выполнение КПЭ, инвестиционная привлекательность региона.</p>
-                                <div class="grid grid--2">
-                                    <div class="audience-card">
-                                        <h4>Губернаторы, зампреды</h4>
-                                        <p>Рост инвестиционной привлекательности, Data-Driven управление</p>
-                                    </div>
-                                    <div class="audience-card">
-                                        <h4>Региональные чиновники</h4>
-                                        <p>Сокращение сроков услуг, прозрачность</p>
-                                    </div>
-                                    <div class="audience-card">
-                                        <h4>Главные архитекторы</h4>
-                                        <p>Инструмент для работы с территорией</p>
-                                    </div>
-                                    <div class="audience-card">
-                                        <h4>Минстрой</h4>
-                                        <p>Письма от регионов, резолюция #ГИСОГД</p>
-                                    </div>
-                                </div>
+                <div class="tabs__content active" id="tab-b2g">
+                    <div class="audience-block">
+                        <p class="audience-block__message">Экономия времени, снижение рисков, выполнение КПЭ, инвестиционная привлекательность региона.</p>
+                        <div class="grid grid--2">
+                            <div class="audience-card">
+                                <h4>Губернаторы, зампреды</h4>
+                                <p>Рост инвестиционной привлекательности, Data-Driven управление</p>
                             </div>
-                        </div>
-
-                        <div class="tabs__content" id="tab-b2b">
-                            <div class="audience-block">
-                                <p class="audience-block__message">Ускорение проектов, прозрачность, снижение издержек.</p>
-                                <div class="grid grid--2">
-                                    <div class="audience-card">
-                                        <h4>Девелоперы</h4>
-                                        <p>Анализ участка в 1 клик, сокращение согласований</p>
-                                    </div>
-                                    <div class="audience-card">
-                                        <h4>Проектировщики</h4>
-                                        <p>Актуальные данные, единые стандарты</p>
-                                    </div>
-                                    <div class="audience-card">
-                                        <h4>РСО</h4>
-                                        <p>Электронное взаимодействие, прозрачность</p>
-                                    </div>
-                                </div>
+                            <div class="audience-card">
+                                <h4>Региональные чиновники</h4>
+                                <p>Сокращение сроков услуг, прозрачность</p>
                             </div>
-                        </div>
-
-                        <div class="tabs__content" id="tab-b2c">
-                            <div class="audience-block">
-                                <p class="audience-block__message">Доступ к данным о своей территории — контроль, участие, возможности.</p>
-                                <div class="grid grid--2">
-                                    <div class="audience-card">
-                                        <h4>Граждане</h4>
-                                        <p>«Узнай, что можно строить на участке»</p>
-                                    </div>
-                                    <div class="audience-card">
-                                        <h4>Риэлторы</h4>
-                                        <p>Инструмент оценки территории, white label</p>
-                                    </div>
-                                    <div class="audience-card">
-                                        <h4>Малый бизнес</h4>
-                                        <p>Анализ локаций («Где открыть кофейню»)</p>
-                                    </div>
-                                    <div class="audience-card">
-                                        <h4>Журналисты, урбан-каналы</h4>
-                                        <p>Данные для расследований</p>
-                                    </div>
-                                </div>
+                            <div class="audience-card">
+                                <h4>Главные архитекторы</h4>
+                                <p>Инструмент для работы с территорией</p>
+                            </div>
+                            <div class="audience-card">
+                                <h4>Минстрой</h4>
+                                <p>Письма от регионов, резолюция #ГИСОГД</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="illustration illustration--compact">
-                    <object data="assets/img/audience-illustration.svg" type="image/svg+xml" aria-label="Три группы аудитории ИМТ"></object>
+
+                <div class="tabs__content" id="tab-b2b">
+                    <div class="audience-block">
+                        <p class="audience-block__message">Ускорение проектов, прозрачность, снижение издержек.</p>
+                        <div class="grid grid--2">
+                            <div class="audience-card">
+                                <h4>Девелоперы</h4>
+                                <p>Анализ участка в 1 клик, сокращение согласований</p>
+                            </div>
+                            <div class="audience-card">
+                                <h4>Проектировщики</h4>
+                                <p>Актуальные данные, единые стандарты</p>
+                            </div>
+                            <div class="audience-card">
+                                <h4>РСО</h4>
+                                <p>Электронное взаимодействие, прозрачность</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tabs__content" id="tab-b2c">
+                    <div class="audience-block">
+                        <p class="audience-block__message">Доступ к данным о своей территории — контроль, участие, возможности.</p>
+                        <div class="grid grid--2">
+                            <div class="audience-card">
+                                <h4>Граждане</h4>
+                                <p>«Узнай, что можно строить на участке»</p>
+                            </div>
+                            <div class="audience-card">
+                                <h4>Риэлторы</h4>
+                                <p>Инструмент оценки территории, white label</p>
+                            </div>
+                            <div class="audience-card">
+                                <h4>Малый бизнес</h4>
+                                <p>Анализ локаций («Где открыть кофейню»)</p>
+                            </div>
+                            <div class="audience-card">
+                                <h4>Журналисты, урбан-каналы</h4>
+                                <p>Данные для расследований</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -526,49 +483,31 @@
                 <h2>GEMS — проводник цифровой трансформации градостроительства</h2>
             </div>
 
-            <div class="grid--illustration">
-                <div>
-                    <div class="gems__intro">
-                        <p>GEMS — разработчик GIS-решений для градостроительства и лидер цифровизации ГИСОГД в России. Geometa — платформа, на которой строится ИМТ. Polus — инструмент вовлечения.</p>
-                    </div>
+            <div class="gems__intro">
+                <p>GEMS — разработчик GIS-решений для градостроительства и лидер цифровизации ГИСОГД в России. Geometa — платформа, на которой строится ИМТ. Polus — инструмент вовлечения.</p>
+            </div>
 
-                    <div class="gems__stats">
-                        <div class="gems__stat">
-                            <span class="gems__stat-number">150+</span>
-                            <span class="gems__stat-label">сотрудников</span>
-                        </div>
-                        <div class="gems__stat">
-                            <span class="gems__stat-number">54–55</span>
-                            <span class="gems__stat-label">регионов на Geometa</span>
-                        </div>
-                        <div class="gems__stat">
-                            <span class="gems__stat-number">600+</span>
-                            <span class="gems__stat-label">проектов</span>
-                        </div>
-                        <div class="gems__stat">
-                            <span class="gems__stat-number">1 млн+</span>
-                            <span class="gems__stat-label">услуг в строительстве ежегодно</span>
-                        </div>
-                    </div>
-
-                    <div class="callout">
-                        <p>GEMS — не просто вендор. GEMS — проводник: от текущего состояния («цифровая бумага») к целевому (информационная модель территории). Продвигаем концепцию, создаём спрос, формируем общественный запрос на институциональные изменения.</p>
-                    </div>
+            <div class="gems__stats">
+                <div class="gems__stat">
+                    <span class="gems__stat-number">150+</span>
+                    <span class="gems__stat-label">сотрудников</span>
                 </div>
-                <div class="illustration illustration--compact">
-                    <object data="assets/img/gems-illustration.svg" type="image/svg+xml" aria-label="Дашборд показателей GEMS"></object>
+                <div class="gems__stat">
+                    <span class="gems__stat-number">54–55</span>
+                    <span class="gems__stat-label">регионов на Geometa</span>
+                </div>
+                <div class="gems__stat">
+                    <span class="gems__stat-number">600+</span>
+                    <span class="gems__stat-label">проектов</span>
+                </div>
+                <div class="gems__stat">
+                    <span class="gems__stat-number">1 млн+</span>
+                    <span class="gems__stat-label">услуг в строительстве ежегодно</span>
                 </div>
             </div>
 
-            <!-- Media placeholder: demo video -->
-            <div class="media-placeholder media-placeholder--video">
-                <div class="media-placeholder__content">
-                    <div class="media-placeholder__icon">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-                    </div>
-                    <div class="media-placeholder__label">Демонстрация платформы ИМТ</div>
-                    <div class="media-placeholder__hint">Здесь будет видео с интерфейсом системы — карта, слои, аналитика</div>
-                </div>
+            <div class="callout">
+                <p>GEMS — не просто вендор. GEMS — проводник: от текущего состояния («цифровая бумага») к целевому (информационная модель территории). Продвигаем концепцию, создаём спрос, формируем общественный запрос на институциональные изменения.</p>
             </div>
         </div>
     </section>
